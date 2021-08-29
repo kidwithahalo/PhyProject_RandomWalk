@@ -1,3 +1,9 @@
+'''Random walk in 1D
+Body is initially resting at x = 0 and it will move
+either in postive or negative x direction
+'''
+
+
 import random
 
 def random_walk(n):
@@ -21,4 +27,3 @@ for i in range(number_of_walk):
     print(walk, "Distance from origin = ", abs(walk))
 
 print(f"\nFinal distance from start: {abs(walk)} ")
-    
